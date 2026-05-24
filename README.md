@@ -7,11 +7,11 @@ dictionary?" workload. Zero runtime dependencies.
 ## Install
 
 ```bash
-npm install trie-ts
+npm install && npm run build
 ```
 
 Requires Node 18+ and TypeScript 4.7+ (uses `exactOptionalPropertyTypes`
-in the published types).
+in the generated declaration types).
 
 ## Quick start
 
